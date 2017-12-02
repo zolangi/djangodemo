@@ -1,7 +1,40 @@
-li a {
-    color: black;
-}
-
 body {
     background: #ffd9d9 url("images/background.gif") no-repeat right bottom;
+}
+
+h1 {
+    text-align: center;
+}
+
+table, th, td {
+    background: white;
+}
+th, td {
+    padding: 20px;
+}
+
+.detail {
+    background: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+input {
+    background-color: green;
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    margin: 4px 3px;
+}
+
+#vote {
+    border: 5px solid green;
+    border-radius: 5px;
+    color: white;
+    background: green;
+    padding: 5px 15px;
+    margin: 4px 3px;
+    font-size: 18px;
 }
